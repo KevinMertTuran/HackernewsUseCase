@@ -27,7 +27,7 @@ Scenario
 4. Arnold receives an Error Message that says “Please fill out required fields”
 5. Use case ends with Failure
 
-###Login – Credential Failed
+### Login – Credential Failed
 
 Actor
 Arnold – User (interacts with the subject)
@@ -40,9 +40,9 @@ Scenario
 
 
 
-##Signup
+## Signup
 
-###Signup – Succeed
+### Signup – Succeed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -52,7 +52,7 @@ Scenario
 4. Arnold is redirected to the front page and has access to authorized functionality
 5. Use case ends with Success
 
-###Signup – Validation Failed
+### Signup – Validation Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -62,7 +62,7 @@ Scenario
 4. Arnold receives an Error Message, that he needs to fill out the required fields.
 5. Use case ends with Failure
 
-###Signup – Validation Failed (Password required length)
+### Signup – Validation Failed (Password required length)
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -73,7 +73,7 @@ Account” button
 4. Arnold receives an Error Message, that the password must be minimum 8 characters’ long
 5. Use case ends with Failure
 
-###Signup – Existing User
+### Signup – Existing User
 
 Actor
 Arnold – User (interacts with the subject)
@@ -83,7 +83,7 @@ Scenario
 3. Arnold enters a username and password, and clicks on the “Create Account” button 4. Arnold receives a Message, that Arnold already has an account
 5. Use case ends with Failure
 
-###Signup – Username Taken
+### Signup – Username Taken
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -94,9 +94,9 @@ Scenario
 5. Use case ends with Failure
 
 
-##Comment
+## Comment
 
-###Comment Post - Validation succeed
+### Comment Post - Validation succeed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -105,7 +105,7 @@ Scenario
 3. Arnold enters texts and clicks on the “Add Comment” button
 4. Use case ends with Success
 
-###Comment Post – Validation Failed
+### Comment Post – Validation Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -114,7 +114,7 @@ Scenario
 3. Arnold doesn’t enter any text, and clicks on the “Add Comment” button
 4. Use case ends with Failure
 
-###Comment Post – Authorization Failed
+### Comment Post – Authorization Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -125,7 +125,7 @@ Scenario
 5. Use case ends with Failure
 
 
-##Up-vote Comment – Succeed
+## Up-vote Comment – Succeed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -134,7 +134,7 @@ Scenario
 3. Arnold is informed that he has up-voted a comment
 4. Use case ends with Success
 
-###Up-vote Comment – Authorization Failed
+### Up-vote Comment – Authorization Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -143,7 +143,7 @@ Scenario
 3. Arnold is prompted to sign up or login
 4. Use case ends with Failure
 
-###Down-vote Comment – Succeed
+### Down-vote Comment – Succeed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -152,7 +152,7 @@ Scenario
 3. Arnold is informed that he has down-voted a comment
 4. Use case ends with Success
 
-###Down-vote Comment – Authorization Failed
+### Down-vote Comment – Authorization Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -161,9 +161,9 @@ Scenario
 3. Arnold is prompted to sign up or login
 4. Use case ends with Failure
 
-##Post
+## Post
 
-###Create Post – Validation Succeed
+### Create Post – Validation Succeed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -173,7 +173,7 @@ Scenario
 9. Arnold clicks on the “submit” button to make his post public
 10. Use case ends with Success
 
-###Create Post - Validation Failed
+### Create Post - Validation Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
@@ -184,7 +184,7 @@ Scenario
 5. Arnold receive an Error (“Please try again”), required fields cannot be empty
 6. Use case ends with Failure
 
-###Create Post - Authentication Failed
+### Create Post - Authentication Failed
 Actor
 Arnold – User (interacts with the subject)
 Scenario
